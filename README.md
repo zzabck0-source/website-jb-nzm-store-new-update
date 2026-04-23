@@ -1,1 +1,126 @@
-# website-jb-nzm-store-new-update
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web by NZM Store</title>
+    
+    <style>
+        body {
+            background-image: url('https://p4.wallpaperbetter.com/wallpaper/256/284/22/noragami-yato-noragami-anime-boys-wallpaper-preview.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* INI CSS UNTUK LOGO POJOK KIRI */
+        .logo-pojok {
+            position: fixed;   /* Terkunci di layar */
+            top: 20px;         /* Jarak dari atas */
+            left: 20px;        /* Jarak dari kiri */
+            width: 80px;       /* SILAKAN ATUR UKURAN DI SINI */
+            height: auto;
+            z-index: 1000;
+            border-radius: 10px; /* Opsional: biar sudutnya agak tumpul */
+        }
+
+        .container {
+            background: rgba(0, 0, 0, 0.7);
+            backdrop-filter: blur(10px);
+            padding: 60px;
+            border-radius: 20px;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            width: 90%;
+            max-width: 400px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+        }
+
+        .logo-toko {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid white;
+            margin-bottom: 15px;
+        }
+
+        .jalan-keren {
+            color: #00ff00;
+            font-weight: bold;
+            text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+            display: block;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: white;
+            margin-bottom: 30px;
+            letter-spacing: 2px;
+            font-size: 24px;
+        }
+
+        .btn {
+            display: block;
+            text-decoration: none;
+            color: white;
+            background: linear-gradient(45deg, #000, #333);
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: 0.3s;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .btn-tiktok:hover {
+            background: #fe2c55;
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(254, 44, 85, 0.4);
+        }
+
+        .btn-saluran {
+            background: #25d366;
+            margin-top: 50px;
+        }
+
+        .btn-saluran:hover {
+            background: #128c7e;
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- LOGO POJOK KIRI TARUH DI SINI (Di dalam body) -->
+    <img src="https://api.logo.com/api/v2/images?design=lg_GacU3PwkEkAMgzt8ev&u=1776944705225&width=400&height=400&margins=100&fit=contain&format=webp&quality=60&tightBounds=true" class="logo-pojok">
+
+    <div class="container">
+        <marquee class="jalan-keren">⚠️ Nomer admin ada di saluran, klik tombol di bawah! ⚠️</marquee>
+
+        <img src="https://api.logo.com/api/v2/images?design=lg_GacU3PwkEkAMgzt8ev&u=1776944705225&width=400&height=400&margins=100&fit=contain&format=webp&quality=60&tightBounds=true" class="logo-toko" alt="Logo NZM Store">
+
+        <h1>MAU BUY AKUN?</h1>
+
+        <a href="https://www.tiktok.com/@nzmgtaunormalkga1" target="_blank" class="btn btn-tiktok">
+            Akun TikTok Admin
+        </a>
+
+        <a href="https://www.tiktok.com/@atezelit2" target="_blank" class="btn btn-tiktok">
+            Akun TikTok ke-2 Admin
+        </a>
+
+        <a href="https://whatsapp.com/channel/0029Vb6Id391Hsq5OVWux80O" target="_blank" class="btn btn-saluran">
+            MASUK KE SALURAN
+        </a>
+    </div>
+
+</body>
+</html>
